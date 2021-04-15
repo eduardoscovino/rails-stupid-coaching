@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <h1>Welcome to the best coaching project ever!</h1>
+    <div class='banner'>
+      <form action="/answer" method='get'>
+        <input type="text" name="answer" placeholder='Feeling lucky?'>
+        <input class='button' type="submit" value="Ask your wonderful coach!">
+      </form>    
+    </div>
     <%= yield %>
   </body>
 </html>
